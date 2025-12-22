@@ -219,6 +219,10 @@ These scenarios reflect real-world environments, not toy examples.
 - Authentication & authorization
 
 
+## 👤 Author
+
+Clarence Perdue Jr.
+Built as a hands-on learning and teaching project.
 
 
 
