@@ -108,8 +108,16 @@ cd backend
 npm install
 npm start
 ```
-
 #### Backend runs at:
 ```bash
 http://localhost:3001
 ```
+
+#### Test the API directly:
+```bash
+curl http://127.0.0.1:3001/logs
+```
+
+###  2️⃣ Start the Frontend
+
+#### Open a new terminal window:
