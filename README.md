@@ -126,3 +126,39 @@ cd frontend
 npm install
 npm start
 ```
+---
+
+## 🔍 How the App Works (High-Level Flow)
+1. React app loads in the browser
+2. Frontend calls GET /logs on the backend
+3.Backend reads logs.json from disk
+4. JSON logs are returned via the API
+5. React:
+   - Displays logs in a table
+   - Applies level filters
+   - Applies full-text search across all fields
+   - Applies severity color-coding
+
+This mirrors the core mental model behind Splunk-style log exploration.
+
+  ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
