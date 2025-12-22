@@ -144,6 +144,79 @@ This mirrors the core mental model behind Splunk-style log exploration.
   ---
 
 
+## ⚠️ Real Issues Encountered & Resolved
+
+This project intentionally documents real development problems, not just success paths.
+
+## 🪟 Windows Permission Issues
+
+Initial development under Documents/ caused permission errors
+
+Solution: moved project to C:\dev\
+
+## 📦 node_modules Performance
+
+Copying node_modules caused extreme slowdowns
+
+Solution: excluded dependencies and regenerated with npm install
+
+## 🧬 Nested Git Repositories (Submodule Issue)
+
+Frontend was initially tracked as a Git submodule (mode 160000)
+
+Solution:
+
+- Removed nested .git
+
+- Cleaned submodule metadata
+
+- Re-added frontend as a normal folder
+
+## 🧾 JSON BOM Parsing Error
+
+Logs file contained a UTF-8 BOM character
+
+Solution:
+
+- Sanitized file contents before JSON.parse
+
+## 🔐 ESLint & Antivirus Conflict
+
+ESLint cache triggered Windows AV file-lock errors
+
+Solution:
+
+- Disabled ESLint for development only
+
+- No antivirus settings were changed
+
+These scenarios reflect real-world environments, not toy examples.
+
+##  🔐 Security Notes
+
+- CORS restricted to localhost origins
+
+- No credentials or secrets stored
+
+- .env files excluded from Git
+
+- Safe for demos, interviews, and training use
+
+## 📈 Future Enhancements (Planned)
+
+- Human-readable timestamp formatting
+
+- Highlight matched search terms
+
+- Pagination for large log sets
+
+- Upload custom log files
+
+- Server-side filtering & search
+
+- Dockerized setup
+
+- Authentication & authorization
 
 
 
