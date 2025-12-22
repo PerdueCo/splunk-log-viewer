@@ -107,3 +107,4 @@ splunk-log-viewer/
 cd backend
 npm install
 npm start
+
