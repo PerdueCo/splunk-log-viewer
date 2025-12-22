@@ -40,4 +40,70 @@ This is intentionally **not a black-box demo** — it’s meant to be explained.
 ---
 
 ## 🗂 Project Structure
+```text
+splunk-log-viewer/
+│
+├── backend/
+│ ├── server.js # Express API
+│ ├── logs.json # Sample log data
+│ ├── package.json
+│ └── package-lock.json
+│
+├── frontend/
+│ ├── src/
+│ │ └── App.js # React UI logic
+│ ├── public/
+│ ├── package.json
+│ └── package-lock.json
+│
+├── .gitignore
+└── README.md
 
+```
+---
+## 🛠 Tech Stack
+
+### Backend
+- Node.js
+- Express
+- CORS (restricted to localhost)
+
+### Frontend
+- React
+- Fetch API
+- Basic CSS styling
+
+### Tooling
+- Git & GitHub
+- npm
+- Windows PowerShell
+
+---
+
+## 🛠 Tech Stack
+
+### Backend
+- Node.js
+- Express
+- CORS (restricted to localhost)
+
+### Frontend
+- React
+- Fetch API
+- Basic CSS styling
+
+### Tooling
+- Git & GitHub
+- npm
+- Windows PowerShell
+
+---
+
+## ▶️ How to Run the Project Locally
+
+### 1️⃣ Start the Backend (Always First)
+
+```bash
+cd backend
+npm install
+npm start
