@@ -121,3 +121,8 @@ curl http://127.0.0.1:3001/logs
 ###  2️⃣ Start the Frontend
 
 #### Open a new terminal window:
+```bash
+cd frontend
+npm install
+npm start
+```
