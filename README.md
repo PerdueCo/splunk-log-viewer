@@ -22,6 +22,18 @@ This project demonstrates **log ingestion, filtering, search, and visualization*
 
 ---
 
+## 📸 Screenshots
+
+### 🔹 Main Log Viewer Interface
+![Main Log Viewer](screenshots/splunk-log-viewer-ui.png)
+
+### 🔹 Search Across Logs
+![Search Logs](screenshots/splunk-log-viewer-search.png)
+
+### 🔹 Backend API Running
+![Backend API](screenshots/backend-api-running.png)
+
+---
 ## 🧠 Why This Project Exists
 
 This project was built to:
@@ -228,6 +240,7 @@ These scenarios reflect real-world environments, not toy examples.
 
 Clarence Perdue Jr.
 Built as a hands-on learning and teaching project.
+
 
 
 
