@@ -126,6 +126,11 @@ cd frontend
 npm install
 npm start
 ```
+
+#### Frontend runs at:
+```bash
+http://localhost:3000/
+```
 ---
 
 ## 🔍 How the App Works (High-Level Flow)
@@ -223,6 +228,7 @@ These scenarios reflect real-world environments, not toy examples.
 
 Clarence Perdue Jr.
 Built as a hands-on learning and teaching project.
+
 
 
 
