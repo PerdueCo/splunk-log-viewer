@@ -178,6 +178,20 @@ This mirrors the core mental model behind Splunk-style log exploration.
 
   ---
 
+  ## 🐳 Docker (Optional)
+
+A Dockerfile is included for demonstration purposes.
+
+> Note: Docker Desktop must be running for `docker build` to work.
+> In restricted or corporate environments, Docker may be unavailable.
+> The application runs fully without Docker using standard npm commands.
+
+### Build (Optional)
+```bash
+docker build -t splunk-log-viewer-frontend .
+docker run -p 3000:3000 splunk-log-viewer-frontend
+```
+  ---
 
 ## ⚠️ Real Issues Encountered & Resolved
 
@@ -258,6 +272,7 @@ These scenarios reflect real-world environments, not toy examples.
 
 Clarence Perdue Jr.
 Built as a hands-on learning and teaching project.
+
 
 
 
