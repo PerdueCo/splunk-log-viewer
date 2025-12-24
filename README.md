@@ -144,7 +144,25 @@ npm start
 http://localhost:3000/
 ```
 ---
+## 🧪 Testing
 
+This project includes frontend unit tests written with **Jest** and **React Testing Library**.
+
+### What is Tested
+- Rendering of log data fetched from the backend (mocked API)
+- User interaction: filtering logs by severity level
+
+External API calls are mocked to keep tests fast, deterministic, and independent of a running backend.
+
+### How to Run Tests
+
+From the frontend directory:
+
+```bash
+cd frontend
+npm test
+```
+---
 ## 🔍 How the App Works (High-Level Flow)
 1. React app loads in the browser
 2. Frontend calls GET /logs on the backend
@@ -240,6 +258,7 @@ These scenarios reflect real-world environments, not toy examples.
 
 Clarence Perdue Jr.
 Built as a hands-on learning and teaching project.
+
 
 
 
